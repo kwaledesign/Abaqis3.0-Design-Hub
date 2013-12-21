@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
-<article class="post">
-{{ content }}
-</article>
+
+<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+<ol class="timeline">
+	<li class="tl-node">
+		<div class="tl-stamp">{{ page.date | date_to_string }}</div>
+		<div class="tl-content">{{ page.title }}</div>
+		{{ content }}
+	</li>
+</ol>

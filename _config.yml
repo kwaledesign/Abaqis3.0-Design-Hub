@@ -8,6 +8,12 @@
 name: Abaqis3.0-Design-Hub
 description: Design Hub for Abaqis3.0
 
+linked_posts: true
+#permalink: /:year/:month/:day/:title
+title: Abaqis3.0 Design Project Timeline
+baseurl: localhost:9000
+linked_posts: true
+
 author:
   name: Sam Ashley
   email: sashley@providigm.com
@@ -50,3 +56,4 @@ markdown: maruku
 
 # Use Pygments to highlight code blocks
 pygments: true
+
