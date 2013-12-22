@@ -9,9 +9,9 @@ name: Abaqis3.0-Design-Hub
 description: Design Hub for Abaqis3.0
 
 linked_posts: true
-#permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 title: Abaqis3.0 Design Project Timeline
-baseurl: localhost:9000
+baseurl:
 linked_posts: true
 
 author:

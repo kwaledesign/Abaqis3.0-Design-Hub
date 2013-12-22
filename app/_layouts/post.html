@@ -3,6 +3,12 @@ layout: default
 ---
 
 <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+  <div>{{ page.date | date_to_string }}</div>
+  <div>{{ page.title }}</div>
+  {{ content }}
+
+<!--
+<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 <ol class="timeline">
 	<li class="tl-node">
 		<div class="tl-stamp">{{ page.date | date_to_string }}</div>
@@ -10,3 +16,4 @@ layout: default
 		{{ content }}
 	</li>
 </ol>
+-->
