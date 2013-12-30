@@ -7,7 +7,7 @@
 /**
  * Base
  */
-@import "base/breakpoints";
+//@import "base/breakpoints";
 @import "base/color-pallet";
 @import "base/typography-pallet";
 @import "base/settings";
@@ -18,13 +18,13 @@
 /**
  * Objects
  */
-@import "objects/alert-object";
-@import "objects/button-object";
-@import "objects/close-object";
-@import "objects/label-object";
-@import "objects/media-object";
-@import "objects/nav-object";
-@import "objects/partition-object";
+//@import "objects/alert-object";
+//@import "objects/button-object";
+//@import "objects/close-object";
+//@import "objects/label-object";
+//@import "objects/media-object";
+//@import "objects/nav-object";
+//@import "objects/partition-object";
 
 
 /**
@@ -32,25 +32,24 @@
  */
 @import "components/page";
 @import "components/typography";
-@import "components/lists";
-@import "components/tables";
+//@import "components/lists";
+//@import "components/tables";
 @import "components/links";
-@import "components/forms";
+//@import "components/forms";
 @import "components/code";
-@import "components/figures";
-@import "components/links";
-@import "components/media";
-@import "components/quotes";
-@import "components/rules";
-@import "components/alerts";
-@import "components/buttons";
-@import "components/close";
-@import "components/icons";
-@import "components/labels";
+//@import "components/figures";
+//@import "components/media";
+//@import "components/quotes";
+//@import "components/rules";
+//@import "components/alerts";
+//@import "components/buttons";
+//@import "components/close";
+//@import "components/icons";
+//@import "components/labels";
 //@import "components/nav";
-@import "components/partitions";
+//@import "components/partitions";
 @import "components/spacers";
-@import "components/tabs";
+//@import "components/tabs";
 @import "components/typography";
 
 
@@ -59,8 +58,7 @@
  * 
  */
 //@import "layout/susy-grid";
-//@import "layout/singularity-grid";
-@import "layout/print";
+//@import "layout/print";
 
 
 /**
