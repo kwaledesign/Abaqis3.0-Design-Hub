@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>{{ site.title }}</h1>
-<ol class="timeline">
+<ol class="timeline timeline-list">
 	{% for post in site.posts %}
 		<li class="tl-node">
 			<div class="tl-stamp">{{ post.date | date_to_string }}</div>
